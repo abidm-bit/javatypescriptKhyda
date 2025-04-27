@@ -30,7 +30,14 @@ var bs = ["beautiful soup","black sheep","thas cap"];
 console.log("original array: "+bs);
 console.log();
 
-for(var el of bs){
-    console.log(el.toUpperCase());
-}
-// toUpperCase() doesn't overwrite & modify the original strings
+// console.log("toUpperCase() doesn't overwrite & modify the original strings");
+// for(var el of bs){
+//     console.log(el.toUpperCase());
+// }
+// console.log();
+
+// map the change and store it in another array
+var bsUpper = bs.map(function(el) {
+  return el.toUpperCase();
+});
+console.log("new array: "+ bsUpper);
