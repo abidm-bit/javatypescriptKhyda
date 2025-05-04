@@ -3,6 +3,10 @@ if(number<=1){return number};
 return fibonacciTerm(number-1)+fibonacciTerm(number-2);
 }
 
+const fibonacciTerm2 = (number)=>{
+   return (number<=1)? number :fibonacciTerm2(number-1)+fibonacciTerm2(number-2);
+    }
+
 function fibonacciSequence(number){
     for(i=1;i<=number;i++){
         console.log(fibonacciTerm(i));
@@ -23,3 +27,7 @@ fibonacciSequence(5);
 console.log();
 
 fibonacciSequence(8);
+
+console.log('Ternary:');
+
+console.log(fibonacciTerm2(8));
