@@ -7,7 +7,8 @@ var cod = "ami bala \n fua na"
 console.log(cod);
 console.log();
 
-const watchBox =["tissot","hamilton","iwc","tudor"];
+const watchBox =["tissot prx 35","hamilton pilot","iwc","tudor bay 35"];
+watchBox.push("rolex skydweller","vacheron constantin");
 console.log("the watch box has " + watchBox.length + " brands");
 for(const brands of watchBox){console.log(brands)};
 console.log();
