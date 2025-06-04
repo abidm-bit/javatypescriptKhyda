@@ -1,8 +1,8 @@
-function returnSqrt(numb){
+const returnSqrt=(numb)=>{
     console.log(Math.sqrt(numb));
 }
 
-function returnSqrt2(numb){
+const returnSqrt2 = (numb)=>{
     console.log(Math.pow(numb,0.5));
 }
 
