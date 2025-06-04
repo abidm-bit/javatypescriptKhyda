@@ -1,7 +1,7 @@
 const numbers =[2,7,11,15];
 const target = 9;
 
-function twoSumQuadratic(input,target){
+const twoSumQuadratic=(input,target)=>{
     for(let i=0;i<numbers.length;i++){
         for(let e=i+1;e<numbers.length;e++){
             if(input[i]+input[e]==target){
@@ -15,7 +15,7 @@ twoSumQuadratic(numbers,target);
 
 console.log("\n");
 
-var twoSum = function(nums, target) {
+const twoSum =(nums, target)=> {
     const number =[];
     for(let i =0;i<nums.length;i++){
         for(let e = i+1; e<nums.length;e++){
@@ -25,6 +25,6 @@ var twoSum = function(nums, target) {
             }
         }
     }
-    return number;
+    console.log(number);
 };
-console.log(twoSum(numbers,target)); //[0,1]
+twoSum(numbers,target); //[0,1]

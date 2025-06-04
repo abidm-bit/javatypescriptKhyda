@@ -1,7 +1,7 @@
 var set =[97,24,-2,35,7];
 
 // loop thru
-function process(numbers){
+const process=(numbers)=>{
     for(var n of numbers){
         if(n%2==0){console.log(n+ ' is even')}
         else console.log(n+ ' is odd')
@@ -16,7 +16,7 @@ console.log("\n");
 // function + forEach
 const set2 = [-141,741,500,-170];
 
-function process2(number){
+const process2=(number)=>{
     if(number%2==0){console.log(number + ' is even')}
     else console.log(number + ' is odd')
 }
