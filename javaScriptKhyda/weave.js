@@ -8,7 +8,6 @@ console.log(cod);
 console.log();
 
 const watchBox =["tissot","hamilton","iwc","tudor"];
-watchBox.push("rolex","audemars piguet","vacheron constantin");
 console.log("the watch box has " + watchBox.length + " brands");
 for(const brands of watchBox){console.log(brands)};
 console.log();

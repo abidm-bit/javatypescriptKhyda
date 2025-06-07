@@ -7,7 +7,7 @@ const fibonacciTerm2 = (number)=>{
    return (number<=1)? number :fibonacciTerm2(number-1)+fibonacciTerm2(number-2);
     }
 
-const fibonacciSequence =(number)=>{
+function fibonacciSequence(number){
     for(i=1;i<=number;i++){
         console.log(fibonacciTerm(i));
     }
@@ -27,8 +27,6 @@ fibonacciSequence(5);
 console.log();
 
 fibonacciSequence(8);
-
-console.log();
 
 console.log('Ternary:');
 
