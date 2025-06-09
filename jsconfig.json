@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["javaScriptKhyda/*"]
+    }
+  },
+  "include": ["javaScriptKhyda/**/*"],
+  "exclude": ["node_modules", "dist"]
+} 
